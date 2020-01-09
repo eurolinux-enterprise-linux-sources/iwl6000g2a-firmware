@@ -1,5 +1,5 @@
 Name:           iwl6000g2a-firmware
-Version:        17.168.5.2
+Version:        17.168.5.3
 Release:        1%{?dist}
 Summary:        Firmware for Intel(R) Wireless WiFi Link 6005 Series Adapters
 
@@ -60,6 +60,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Tue Aug  9 2011 John W. Linville <linville@redhat.com> - 17.168.5.3-1
+- Update to version 17.168.5.3 from upstream
+
 * Mon Feb 14 2011 John W. Linville <linville@redhat.com> - 17.168.5.2-1
 - Update to version 17.168.5.2 from upstream
 
